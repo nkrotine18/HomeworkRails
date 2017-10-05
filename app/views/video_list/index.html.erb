@@ -1,0 +1,8 @@
+<h1>Video List</h1>
+
+
+<% @videos.each do |video| %>
+<h3><%= video.user_id %> <%= video.first_name %> <%= video.last_name %>
+</h3>
+<% end %>
+
